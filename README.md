@@ -1,0 +1,2 @@
+# MusicNode
+Discord music bot
