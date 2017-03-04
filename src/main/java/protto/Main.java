@@ -19,7 +19,7 @@ public class Main {
 		JDA jda = new JDABuilder(AccountType.BOT)
 				.setToken(Config.TOKEN)
 				.addListener(bot)
-				.setGame(Game.of("Debugging"))
+				.setGame(Game.of(Config.PREFIX + "help"))
 				.buildBlocking();
 		bot.setJDA(jda);
 	}

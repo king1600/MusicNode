@@ -140,6 +140,13 @@ public class Handler {
 					break;
 				}
 				
+				// display help
+				case "help":
+				{
+					channel.sendMessage("https://king1600.github.io/MusicNode/").queue();
+					break;
+				}
+				
 				// add a link/search to back  of queue
 				case "add":
 				{
