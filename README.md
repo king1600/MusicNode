@@ -81,8 +81,8 @@ Deletes and clears all songs in queue. (Does not affect current playing)
 
 ----
 
-```markdown
-Position = = Youtube Time format (ex: **2m3s** or **120**(defaults to seconds))
+```python
+Position = Youtube Time format (ex: "2m3s" or 120(defaults to seconds))
 ```
 
 ## ?seek \<position\>
