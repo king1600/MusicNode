@@ -1,6 +1,6 @@
 ## Help Commands
 
-# ping
+### ping
 
 Responds with a basic ping request
 
